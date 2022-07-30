@@ -1,0 +1,43 @@
+.section-footer {
+  background-image: url(../../assets/bg-footer.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 30.3%;
+  position: relative;
+  width: 100%;
+}
+.section-title {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 2vh;
+}
+.section-title:hover {
+  text-decoration: none;
+  color: #c6f0e3;
+  font-weight: bold;
+  font-size: 2vh;
+}
+.section-footer-1 {
+  position: absolute;
+  width: 100%;
+  left: 10%;
+  top: 15%;
+  transform: translate(-10%, -10%);
+}
+.section-footer-2 {
+  position: absolute;
+  width: 100%;
+  left: 10%;
+  top: 65%;
+  transform: translate(-10%, -10%);
+}
+.button-footer-submit {
+  width: 100%;
+  background: #209a75;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bolder;
+}

@@ -1,0 +1,15 @@
+.section-collab {
+  position: relative;
+  background: url(../../assets/bg-collab.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.title-collab{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}

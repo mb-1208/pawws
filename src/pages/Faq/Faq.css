@@ -1,0 +1,115 @@
+.section-faq {
+  position: relative;
+  background: url(../../assets/bg-faq.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.title-faq {
+  position: absolute;
+  top: 20%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+}
+
+.faq-position{
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.menu__container {
+  width: 100%;
+  height: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  transform: perspective(1000px) rotateX(-45deg) rotateY(0deg) rotateZ(0deg);
+  transform-origin: center center 0px;
+  transition: all 0.5s ease-out;
+}
+.menu__container:hover {
+  transform: perspective(1000px) rotateX(355deg) rotateY(0deg) rotateZ(0deg);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0);
+}
+.menu__container .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  height: 100%;
+}
+.menu__container .menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  transition: all 0.1s linear;
+}
+.menu__container .menu a:hover {
+  transform: scale(1.1, 1.1);
+}
+.menu__container--2 {
+  background-image: linear-gradient(120deg, #9dd5f5  0%, #9dd5f5  100%);
+  transform: perspective(1000px) rotateX(0deg) rotateY(45deg) rotateZ(0deg);
+}
+.menu__container--2:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+.menu__container--4 {
+  background-image: linear-gradient(120deg, #9dd5f5  0%, #9dd5f5  100%);
+  transform: perspective(1000px) rotateX(0deg) rotateY(45deg) rotateZ(0deg);
+}
+.menu__container--4:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+.menu__container--3 {
+  background-image: linear-gradient(
+    to top,
+    #9dd5f5 0%,
+    #9dd5f5 100%
+  );
+  transform: perspective(1000px) rotateX(0deg) rotateY(-45deg) rotateZ(0deg);
+}
+.menu__container--3:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+.menu__container--5 {
+  background-image: linear-gradient(
+    to top,
+    #9dd5f5 0%,
+    #9dd5f5 100%
+  );
+  transform: perspective(1000px) rotateX(0deg) rotateY(-45deg) rotateZ(0deg);
+}
+.menu__container--5:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.faq-1-ans{
+  padding-top: 1rem;
+  display: none;
+}
+
+.faq-2-ans{
+  padding-top: 1rem;
+  display: none;
+}
+
+.faq-3-ans{
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: none;
+}
+
+.faq-4-ans{
+  padding-top: 1rem;
+  display: none;
+}

@@ -1,0 +1,20 @@
+.section-roadmap {
+  background-image: url(../../assets/bg-roadmap.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 281.25%;
+  position: relative;
+  width: 100%;
+}
+
+.art-position {
+  position: absolute;
+  top: 0;
+}
+
+.title-roadmap{
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
