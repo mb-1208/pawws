@@ -6,46 +6,9 @@ function Landing() {
   return (
     <>
       <div className="section-page">
-        <div className="container pt-4 pb-4">
-          <div className="navbar-wrapper" style={{ display: "flex" }}>
-            <div className="navbar-box" style={{ placeContent: "start" }}>
-              <h6 className="p-3">ABOUT</h6>
-              <h6 className="p-3">COLLABORATION</h6>
-              <h6 className="p-3">LAND</h6>
-              <h6 className="p-3">TEAM</h6>
-              <h6 className="p-3">FAQ</h6>
-              <h6 className="p-3">TERMS</h6>
-            </div>
-            <div
-              className="navbar-box"
-              style={{ placeContent: "end", alignItems: "center" }}
-            >
-              <img src="" alt="" />
-              <img
-                className="p-1"
-                src="assets/Landing/icon-dc.png"
-                width="8%"
-                alt=""
-              />
-              <img
-                className="p-1"
-                src="assets/Landing/icon-ig.png"
-                width="8%"
-                alt=""
-              />
-              <img
-                className="p-1"
-                src="assets/Landing/icon-twt.png"
-                width="8%"
-                alt=""
-              />
-              {/* <h5 className="ps-4">VIEW ON OPENSEA</h5> */}
-            </div>
-          </div>
-        </div>
         <div className="logo">
           <img
-            src="assets/Landing/logo.png"
+            src="assets/Landing/pawws-text.png"
             alt=""
             style={{ height: "15vh" }}
           />

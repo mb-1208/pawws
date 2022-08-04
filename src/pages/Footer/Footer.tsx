@@ -9,7 +9,7 @@ function Footer() {
         <div className="section-footer-1">
           <div className="row container" style={{ margin: "0 auto" }}>
             <div className="col-sm-5">
-              <img src="assets/footer/logo.png" width="40%" alt="" />
+              <img src="assets/Landing/pawws-text.png" width="40%" alt="" />
             </div>
             <div className="col-sm-7 text-center" style={{alignSelf : 'center'}}>
               <a className="p-2" href="">

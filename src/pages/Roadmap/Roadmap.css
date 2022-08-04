@@ -12,9 +12,51 @@
   top: 0;
 }
 
-.title-roadmap{
-    position: absolute;
-    top: 6%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.phase-1 {
+  position: absolute;
+  left: 45%;
+  top: 24%;
+  transform: translate(-50%, -50%);
+}
+
+.phase-2 {
+  position: absolute;
+  left: 45%;
+  top: 34%;
+  transform: translate(-50%, -50%);
+}
+
+.phase-3 {
+  position: absolute;
+  left: 45%;
+  top: 46%;
+  transform: translate(-50%, -50%);
+}
+
+.phase-4 {
+  position: absolute;
+  left: 30.5%;
+  top: 56.5%;
+  transform: translate(-50%, -50%);
+}
+
+.phase-5 {
+  position: absolute;
+  left: 23.5%;
+  top: 63.7%;
+  transform: translate(-50%, -50%);
+}
+
+.phase-6 {
+  position: absolute;
+  left: 25.5%;
+  top: 70.7%;
+  transform: translate(-50%, -50%);
+}
+
+.title-roadmap {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

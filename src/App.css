@@ -3,6 +3,10 @@
   src: url(../src/assets/Font/FuturaBold.ttf);
 }
 
+.navbar-toggler{
+  border-radius: 0;
+}
+
 html, body {
   max-width: 100%;
   overflow-x: hidden;
