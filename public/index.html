@@ -48,9 +48,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- <script type="text/javascript">
+      $(window).load(function () {
+        $(".loader").fadeOut("slow");
+      });
+    </script> -->
     <script type="text/javascript">
       window.addEventListener("load", function () {
         $(document).ready(function () {
+        $(".loader").fadeOut("slow");
           $(".menu__container--2").mouseover(function () {
             $(".faq-1").css("display", "none");
             $(".faq-1-ans").css("display", "block");

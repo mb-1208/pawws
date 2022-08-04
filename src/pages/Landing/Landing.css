@@ -21,6 +21,14 @@
   animation: animateCursor 5s linear infinite;
 }
 
+.ground-donut{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0%);
+  z-index: 999;
+}
+
 @keyframes animateCursor{
     0%{
         transform: translate(-50%, -50%) rotate(0deg);

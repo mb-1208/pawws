@@ -6,6 +6,11 @@ function Landing() {
   return (
     <>
       <div className="section-page">
+        <img
+          className="ground-donut"
+          src="assets/Landing/donut-landing.gif"
+          alt=""
+        />
         <div className="logo">
           <img
             src="assets/Landing/pawws-text.png"

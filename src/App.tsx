@@ -13,6 +13,14 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
+      <div className="loader">
+        <p className="loader-text">Loading...</p>
+        <img
+          className="loader-donut"
+          src="assets/Landing/donut-landing.gif"
+          alt=""
+        />
+      </div>
       <Navbar />
       <Landing />
       <Story />
