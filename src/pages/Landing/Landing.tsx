@@ -13,7 +13,7 @@ function Landing() {
         />
         <div className="logo">
           <img
-            src="assets/Landing/pawws-text.png"
+            src="assets/Landing/pawws.png"
             alt=""
             style={{ height: "15vh" }}
           />
