@@ -6,6 +6,9 @@ function Roadmap() {
   return (
     <>
       <div className="section-roadmap">
+        <div className="title-roadmap">
+          <img src="assets/Roadmap/title-roadmap.gif" alt="" style={{height: '45vh'}} />
+        </div>
         {/* <div className="phase-1">
           <h6  style={{fontSize: '4vh'}}>Phase I: Launching Collections</h6>
           <p style={{fontSize: '3vh', fontWeight: 'light'}}>
