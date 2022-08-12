@@ -16,7 +16,7 @@
 #content-wrapper {
   display: block;
   width: 100%;
-  background: url(../../assets/bg-team.png);
+  background: url(../../assets/bg/team.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   display: flex;

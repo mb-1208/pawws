@@ -1,8 +1,7 @@
 .section-collab {
   position: relative;
-  background: url(../../assets/bg-collab.png);
+  background: url(../../assets/bg/collection.jpg);
   background-size: 100% 100%;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100vh;
 }

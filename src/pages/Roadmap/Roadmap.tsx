@@ -6,16 +6,7 @@ function Roadmap() {
   return (
     <>
       <div className="section-roadmap">
-        {/* <div className="art-position">
-          <img src="https://firebasestorage.googleapis.com/v0/b/ethstorage-fe9dd.appspot.com/o/Pawws%2Fart.gif?alt=media&token=b518e19e-5eda-4550-9422-feffb8b432ca" width="100%" alt="" />
-        </div> */}
-        <div className="art-position">
-          <img src="assets/Roadmap/cloud.gif" width="100%" alt="" />
-        </div>
-        <div className="art-position">
-          <img src="assets/Roadmap/line.gif" width="100%" alt="" />
-        </div>
-        <div className="phase-1">
+        {/* <div className="phase-1">
           <h6  style={{fontSize: '4vh'}}>Phase I: Launching Collections</h6>
           <p style={{fontSize: '3vh', fontWeight: 'light'}}>
             ◎ Launch Discord and Website <br />
@@ -60,7 +51,7 @@ function Roadmap() {
         </div>
         <div className="title-roadmap">
           <img src="assets/Roadmap/title-roadmap.gif" alt="" style={{height: '45vh'}} />
-        </div>
+        </div> */}
       </div>
     </>
   );

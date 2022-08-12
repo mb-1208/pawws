@@ -6,6 +6,9 @@ function Faq() {
   return (
     <>
       <div className="section-faq">
+        <div className="faq-cloud">
+          <img src="assets/Faq/cloud.png" width="100%" alt="" />
+        </div>
         <div className="title-faq">
           <img
             src="assets/Faq/title-faq.gif"

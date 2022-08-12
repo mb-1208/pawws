@@ -1,8 +1,8 @@
 .section-roadmap {
-  background-image: url(../../assets/bg-roadmap.png);
+  background-image: url(../../assets/bg/roadmap.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  padding-top: 281.25%;
+  padding-top: 100%;
   position: relative;
   width: 100%;
 }
