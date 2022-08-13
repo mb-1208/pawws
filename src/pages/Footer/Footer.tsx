@@ -5,13 +5,16 @@ import "../../App.css";
 function Footer() {
   return (
     <>
-      <section className="section-footer">
-        <div className="section-footer-1">
+      <section className="section-footer" id="footer">
+        <div className="section-footer-wrap">
           <div className="row container" style={{ margin: "0 auto" }}>
             <div className="col-sm-5">
               <img src="assets/Landing/pawws.png" width="40%" alt="" />
             </div>
-            <div className="col-sm-7 text-center" style={{alignSelf : 'center'}}>
+            <div
+              className="col-sm-7 text-center"
+              style={{ alignSelf: "center" }}
+            >
               <a className="p-2" href="">
                 <img src="assets/Footer/icon-dc.png" width="8%" alt="" />
               </a>
@@ -20,9 +23,6 @@ function Footer() {
               </a>
               <a className="p-2" href="">
                 <img src="assets/Footer/icon-twt.png" width="8%" alt="" />
-              </a>
-              <a className="p-2" href="">
-                <img src="assets/Footer/dc-footer.png" width="25%" alt="" />
               </a>
               <div className="link-section">
                 <a className="section-title px-3" href="">
@@ -46,19 +46,12 @@ function Footer() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="section-footer-2">
-          <div
-            className="container text-white"
-            style={{ margin: "0 auto" }}
-          >
+          <div className="container text-white" style={{ margin: "0 auto" }}>
             <div className="text-center" style={{ alignSelf: "end" }}>
               <a className="section-title" href="">
                 <h5>Etherscan</h5>
               </a>
-              <h6>
-                COPYRIGHT © 2022 PAWWS. ALL RIGHTS RESERVED.
-              </h6>
+              <h6>COPYRIGHT © 2022 PAWWS. ALL RIGHTS RESERVED.</h6>
             </div>
           </div>
         </div>

@@ -4,19 +4,66 @@ function Navbar() {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg navbar-light fixed-top"
+        className="navbar navbar-expand-lg navbar-light absolute-top pt-4"
         id="mainNav"
+        style={{zIndex: '999'}}
       >
         <div className="container px-4 px-lg-5">
-          <div>
+          <div className="collapse navbar-collapse" id="navbarResponsive">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <a className="nav-link" href="#landing">
+                  ABOUT
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#collection">
+                  COLLABORATION
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#land">
+                  LAND
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#team">
+                  TEAM
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#faq">
+                  FAQ
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#terms">
+                  TERMS
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div style={{paddingLeft: '1rem '}}>
             <a className="navbar-brand" href="#page-top">
-              <img src="assets/Landing/icon-dc.png" alt="" style={{height: '5vh'}} />
+              <img
+                src="assets/Landing/icon-dc.png"
+                alt=""
+                style={{ height: "5vh" }}
+              />
             </a>
             <a className="navbar-brand" href="#page-top">
-              <img src="assets/Landing/icon-twt.png" alt="" style={{height: '5vh'}} />
+              <img
+                src="assets/Landing/icon-twt.png"
+                alt=""
+                style={{ height: "5vh" }}
+              />
             </a>
             <a className="navbar-brand" href="#page-top">
-              <img src="assets/Landing/icon-ig.png" alt="" style={{height: '5vh', width: '2.5vw'}} />
+              <img
+                src="assets/Landing/icon-ig.png"
+                alt=""
+                style={{ height: "5vh" }}
+              />
             </a>
           </div>
           <button
@@ -30,40 +77,6 @@ function Navbar() {
           >
             <i className="fas fa-bars"></i>
           </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <a className="nav-link" href="#about">
-                  ABOUT
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#projects">
-                  COLLABORATION
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#signup">
-                  LAND
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#signup">
-                  TEAM
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#signup">
-                  FAQ
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#signup">
-                  TERMS
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
       </nav>
     </>

@@ -5,7 +5,7 @@ import "../../App.css";
 function Story() {
   return (
     <>
-      <div className="section-story">
+      <div className="section-story" id="story">
         <img
           src="assets/Story/object-story.gif"
           width="100%"

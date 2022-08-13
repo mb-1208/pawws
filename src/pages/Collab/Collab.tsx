@@ -5,7 +5,7 @@ import "../../App.css";
 function Collab() {
   return (
     <>
-      <div className="section-collab">
+      <div className="section-collab" id="collection">
         {/* <div className="art-position">
           <img src="assets/Roadmap/art.gif" width="100%" alt="" />
         </div> */}

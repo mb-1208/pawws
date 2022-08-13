@@ -5,7 +5,7 @@ import "../../App.css";
 function Faq() {
   return (
     <>
-      <div className="section-faq">
+      <div className="section-faq" id="faq">
         <div className="faq-cloud">
           <img src="assets/Faq/cloud.png" width="100%" alt="" />
         </div>

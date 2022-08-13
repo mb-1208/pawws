@@ -6,10 +6,10 @@ import "../../App.css";
 function Team() {
   return (
     <>
-      <div className="section-team">
+      <div className="section-team" id="team">
         <div id="content-wrapper">
           <div id="row-top">
-            <div className="text-center pt-4">
+            <div className="text-center pt-4 mt-3">
               <img
                 src="assets/Team/title-team.gif"
                 alt=""

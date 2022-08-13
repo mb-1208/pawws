@@ -14,49 +14,55 @@
 
 .phase-1 {
   position: absolute;
-  left: 45%;
-  top: 24%;
+  width: 50%;
+  left: 40%;
+  top: 35.5%;
   transform: translate(-50%, -50%);
 }
 
 .phase-2 {
   position: absolute;
-  left: 45%;
-  top: 34%;
+  width: 50%;
+  left: 40%;
+  top: 50.5%;
   transform: translate(-50%, -50%);
 }
 
 .phase-3 {
   position: absolute;
-  left: 45%;
-  top: 46%;
+  width: 50%;
+  left: 40%;
+  top: 66.3%;
   transform: translate(-50%, -50%);
 }
 
 .phase-4 {
   position: absolute;
-  left: 31.5%;
-  top: 56.5%;
+  width: 50%;
+  left: 40%;
+  top: 76.5%;
   transform: translate(-50%, -50%);
 }
 
 .phase-5 {
   position: absolute;
-  left: 23.5%;
-  top: 63.7%;
+  width: 50%;
+  left: 40%;
+  top: 83.3%;
   transform: translate(-50%, -50%);
 }
 
 .phase-6 {
   position: absolute;
-  left: 25.5%;
-  top: 70.7%;
+  width: 50%;
+  left: 40%;
+  top: 90%;
   transform: translate(-50%, -50%);
 }
 
 .title-roadmap {
   position: absolute;
-  top: 14%;
+  top: 17%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

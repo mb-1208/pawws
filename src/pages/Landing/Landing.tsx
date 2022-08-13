@@ -1,11 +1,13 @@
 import React from "react";
 import "./Landing.css";
 import "../../App.css";
+import Navbar from "../../components/Navbar";
 
 function Landing() {
   return (
     <>
-      <div className="section-page">
+      <div className="section-page" id="landing">
+        <Navbar />
         <img
           className="ground-donut"
           src="assets/Landing/donut-landing.gif"

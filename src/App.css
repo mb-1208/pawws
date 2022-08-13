@@ -3,6 +3,10 @@
   src: url(../src/assets/Font/FuturaBold.ttf);
 }
 
+html {
+  cursor: url("./assets/pawws-cursor.png"), pointer;
+}
+
 .navbar-toggler{
   border-radius: 0;
 }
@@ -23,6 +27,16 @@
   left: 50%;
   top: 57%;
   transform: translate(-50%, -50%);
+}
+
+.absolute-top{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.nav-link{
+  font-size: 2.2vh;
 }
 
 .loader-donut{

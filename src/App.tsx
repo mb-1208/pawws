@@ -8,7 +8,6 @@ import Team from "./pages/Team/Team";
 import FAQ from "./pages/Faq/Faq";
 import Footer from "./pages/Footer/Footer";
 
-import Navbar from "./components/Navbar";
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
           alt=""
         />
       </div>
-      <Navbar />
       <Landing />
       <Story />
       <Roadmap />

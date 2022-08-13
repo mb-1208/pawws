@@ -18,19 +18,10 @@
   font-weight: bold;
   font-size: 2vh;
 }
-.section-footer-1 {
+.section-footer-wrap {
   position: absolute;
   width: 100%;
-  left: 10%;
-  top: 15%;
-  transform: translate(-10%, -10%);
-}
-.section-footer-2 {
-  position: absolute;
-  width: 100%;
-  left: 10%;
-  top: 65%;
-  transform: translate(-10%, -10%);
+  bottom: 0;
 }
 .button-footer-submit {
   width: 100%;
