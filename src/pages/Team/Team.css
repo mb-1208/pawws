@@ -192,6 +192,7 @@
 @media only screen and (max-width: 992px) {
   .team-title {
     height: 40vw;
+    margin-top: 10vh;
   }
   .sm-set {
     width: 50% !important;

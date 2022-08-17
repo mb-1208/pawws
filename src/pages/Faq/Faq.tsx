@@ -16,13 +16,13 @@ function Faq() {
             alt=""
           />
         </div>
-        <div className="position-art">
+        {/* <div className="position-art">
           <img
             className="object-2"
             src="assets/Faq/object-faq.gif"
             alt=""
           />
-        </div>
+        </div> */}
         <div className="faq-position">
           <div className="menu__container menu__container--2">
             <div className="menu text-white">

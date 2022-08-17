@@ -45,7 +45,7 @@ function Footer() {
                 <a className="section-title px-3" href="#faq">
                   FAQ
                 </a>
-                <a className="section-title px-3" href="#terms">
+                <a className="section-title px-3 terms-position" href="#terms">
                   TERMS
                 </a>
               </div>

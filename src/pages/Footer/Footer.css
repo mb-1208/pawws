@@ -66,5 +66,9 @@
   .col-7-footer {
     width: 100%;
     align-self: center;
+    min-inline-size: fit-content;
+  }
+  .terms-position{
+    display: block;
   }
 }
