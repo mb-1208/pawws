@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 992px) {
   .desc-content {
-    font-size: calc(1vh + 1.8vw);
+    font-size: calc(1vh + 2vw);
     color: #5c3749;
   }
   .desc-position {

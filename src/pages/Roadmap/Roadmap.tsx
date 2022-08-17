@@ -32,16 +32,18 @@ function Roadmap() {
         <div className="roadmap-desktop">
           <div className="phase-1">
             <h6 style={{ fontSize: "3.5vh" }}>
-              Phase I: Launching Collections
+            Something, but expect nothing. 
+            <br />
+            take a guess
             </h6>
-            <p style={{ fontSize: "2.5vh", fontWeight: "light" }}>
+            {/* <p style={{ fontSize: "2.5vh", fontWeight: "light" }}>
               ◎ Launch Discord and Website <br />
               ◎ Reward the growing community with rewards including ETH, NFTs,
               and special roles in the community with whitelist benefits <br />◎
               Launch the 8,888 PAWWS collection.
-            </p>
+            </p> */}
           </div>
-          <div className="phase-2">
+          {/* <div className="phase-2">
             <h6 style={{ fontSize: "3.5vh" }}>
               Phase II: Community & Connection
             </h6>
@@ -83,24 +85,27 @@ function Roadmap() {
             <p style={{ fontSize: "2.5vh", fontWeight: "light" }}>
               PAWWS Drop Gen II was released.
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="roadmap-mobile">
           <Swiper pagination={pagination} modules={[Pagination]}>
             <SwiperSlide>
               <div className="swiper-content">
-                <h6 style={{ fontSize: "3.5vh" }}>
-                  Phase I: Launching Collections
+                <h6 style={{ fontSize: "3.5vh", textAlign: 'center' }}>
+                  {/* Phase I: Launching Collections */}
+                  Something, but expect nothing. 
+                  <br/>
+                  take a guess
                 </h6>
-                <p style={{ fontSize: "2.5vh", fontWeight: "light" }}>
+                {/* <p style={{ fontSize: "2.5vh", fontWeight: "light" }}>
                   ◎ Launch Discord and Website <br />
                   ◎ Reward the growing community with rewards including ETH,
                   NFTs, and special roles in the community with whitelist
                   benefits <br />◎ Launch the 8,888 PAWWS collection.
-                </p>
+                </p> */}
               </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <div className="swiper-content">
                 <h6 style={{ fontSize: "3.5vh" }}>
                   Phase II: Community & Connection
@@ -153,7 +158,7 @@ function Roadmap() {
                   PAWWS Drop Gen II was released.
                 </p>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
       </div>

@@ -13,38 +13,38 @@ function Navbar() {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a className="nav-link" href="#story">
-                  ABOUT
+                  STORY
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#collection">
                   COLLECTION
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <a className="nav-link" href="#land">
-                  LAND
+                <a className="nav-link" href="#roadmap">
+                  ROADMAP
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#team">
-                  TEAM
+                  FAQ
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="#faq">
                   FAQ
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#terms">
                   TERMS
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div style={{paddingLeft: '1rem '}}>
-            <a className="navbar-brand" href="#page-top">
+            <a className="navbar-brand" href="#discord">
               <img
                 src="assets/Landing/icon-dc.png"
                 alt=""
@@ -58,13 +58,13 @@ function Navbar() {
                 style={{ height: "5vh" }}
               />
             </a>
-            <a className="navbar-brand" href="#page-top">
+            {/* <a className="navbar-brand" href="#page-top">
               <img
                 src="assets/Landing/icon-ig.png"
                 alt=""
                 style={{ height: "5vh" }}
               />
-            </a>
+            </a> */}
           </div>
           <button
             className="navbar-toggler navbar-toggler-right"

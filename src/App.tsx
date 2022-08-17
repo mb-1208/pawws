@@ -23,8 +23,8 @@ function App() {
       <Landing />
       <Story />
       <Roadmap />
-      <Collab />
-      <Team />
+      {/* <Collab /> */}
+      {/* <Team /> */}
       <FAQ />
       <Footer />
     </>

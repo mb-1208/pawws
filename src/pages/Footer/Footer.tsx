@@ -20,34 +20,34 @@ function Footer() {
               <img src="assets/Landing/pawws.png" width="40%" alt="" />
             </div>
             <div className="col-sm-7 text-center col-7-footer">
-              <a className="p-2" href="">
+              <a className="p-2" href="#discord">
                 <img src="assets/Footer/icon-dc.png" width="8%" alt="" />
               </a>
-              <a className="p-2" href="">
+              {/* <a className="p-2" href="">
                 <img src="assets/Footer/icon-ig.png" width="8%" alt="" />
-              </a>
+              </a> */}
               <a className="p-2" href="">
                 <img src="assets/Footer/icon-twt.png" width="8%" alt="" />
               </a>
               <div className="link-section">
                 <a className="section-title px-3" href="#story">
-                  ABOUT
+                  STORY
                 </a>
-                <a className="section-title px-3" href="#collection">
+                {/* <a className="section-title px-3" href="#collection">
                   COLLECTION
+                </a> */}
+                <a className="section-title px-3" href="#roadmap">
+                  ROADMAP
                 </a>
-                <a className="section-title px-3" href="#land">
-                  LAND
-                </a>
-                <a className="section-title px-3" href="#team">
+                {/* <a className="section-title px-3" href="#team">
                   TEAM
-                </a>
+                </a> */}
                 <a className="section-title px-3" href="#faq">
                   FAQ
                 </a>
-                <a className="section-title px-3 terms-position" href="#terms">
+                {/* <a className="section-title px-3 terms-position" href="#terms">
                   TERMS
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

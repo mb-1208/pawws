@@ -1,6 +1,7 @@
 .section-faq {
   position: relative;
-  background: url(../../assets/bg/faq.jpg);
+  /* background: url(../../assets/bg/faq.jpg); */
+  background: url(../../assets/bg/collection.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100vh;
@@ -154,9 +155,13 @@
   }
   .section-faq {
     position: relative;
-    background: url(../../assets/bg/faq-mobile.png);
+    /* background: url(../../assets/bg/faq-mobile.png); */
+    background: url(../../assets/bg/collection-mobile.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100vh;
+  }
+  .hide-object-2{
+    display: none;
   }
 }
