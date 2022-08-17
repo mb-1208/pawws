@@ -11,16 +11,16 @@ function Faq() {
         </div>
         <div className="title-faq">
           <img
+            className="faq-title"
             src="assets/Faq/title-faq.gif"
             alt=""
-            style={{ height: "33vh" }}
           />
         </div>
         <div className="position-art">
           <img
+            className="object-2"
             src="assets/Faq/object-faq.gif"
             alt=""
-            style={{ width: "100%", height: "100vh" }}
           />
         </div>
         <div className="faq-position">

@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg navbar-light absolute-top pt-4"
+        className="navbar navbar-expand-lg navbar-light absolute-top pt-4 pb-4"
         id="mainNav"
         style={{zIndex: '999'}}
       >
@@ -12,13 +12,13 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#landing">
+                <a className="nav-link" href="#story">
                   ABOUT
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#collection">
-                  COLLABORATION
+                  COLLECTION
                 </a>
               </li>
               <li className="nav-item">

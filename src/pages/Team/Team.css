@@ -168,6 +168,12 @@
 .img-content {
   display: none;
 }
+.team-box-desktop {
+  display: flex;
+}
+.team-box-mobile {
+  display: none;
+}
 @media screen and (max-width: 1024px) {
   img:hover {
     transform: none;
@@ -182,4 +188,24 @@
     display: block;
     padding: 1rem 0;
  }
+}
+@media only screen and (max-width: 992px) {
+  .team-title {
+    height: 40vw;
+  }
+  .sm-set {
+    width: 50% !important;
+  }
+  .team-box-desktop {
+    display: none;
+  }
+  .team-box-mobile {
+    display: block;
+    height: 100%;
+  }
+  #content-wrapper {
+    background: url(../../assets/bg/team-mobile.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
 }

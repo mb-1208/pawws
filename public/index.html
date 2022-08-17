@@ -33,6 +33,8 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
     <title>Pawws</title>
   </head>
   <body>
@@ -56,7 +58,7 @@
     <script type="text/javascript">
       window.addEventListener("load", function () {
         $(document).ready(function () {
-        $(".loader").fadeOut("slow");
+          $(".loader").fadeOut("slow");
           $(".menu__container--2").mouseover(function () {
             $(".faq-1").css("display", "none");
             $(".faq-1-ans").css("display", "block");
@@ -182,6 +184,65 @@
             $(".icon-team8").css("opacity", "0");
           });
         });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        //===== MICRO-SLIDER begin
+        const __ms = document.querySelector(".micro-slider");
+        const __msSlider = new MicroSlider(__ms, {
+          indicators: true,
+          indicatorText: "",
+        });
+        const hammer = new Hammer(__ms);
+        const __msTimer = 2000;
+        let __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+
+        //detect mouseenter event
+        __ms.onmouseenter = function (e) {
+          clearInterval(__msAutoplay);
+          console.log(e.type + " mouse detected");
+        };
+
+        //detect mouseleave event
+        __ms.onmouseleave = function (e) {
+          clearInterval(__msAutoplay);
+          __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+          console.log(e.type + " mouse detected");
+        };
+
+        //detect mouseclick event
+        __ms.onclick = function (e) {
+          clearInterval(__msAutoplay);
+          console.log(e.type + " mouse detected");
+        };
+
+        //detect gesture tap event with hammer js library
+        hammer.on("tap", function (e) {
+          clearInterval(__msAutoplay);
+          console.log(e.type + " gesture detected");
+        });
+
+        //detect gesture swipe event with hammer js library
+        hammer.on("swipe", function (e) {
+          clearInterval(__msAutoplay);
+          __msAutoplay = setInterval(() => __msSlider.next(), __msTimer);
+          console.log(e.type + " gesture detected");
+        });
+
+        let slideLink = document.querySelectorAll(".slider-item");
+        if (slideLink && slideLink !== null && slideLink.length > 0) {
+          slideLink.forEach((el) =>
+            el.addEventListener("click", (e) => {
+              e.preventDefault();
+              let href = el.dataset.href;
+              let target = el.dataset.target;
+              // if (href !== "#") window.open(href, target);
+            })
+          );
+        }
+
+        //===== MICRO-SLIDER end
       });
     </script>
     <script type="text/javascript">

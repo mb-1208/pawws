@@ -6,15 +6,35 @@ function Collab() {
   return (
     <>
       <div className="section-collab" id="collection">
-        {/* <div className="art-position">
-          <img src="assets/Roadmap/art.gif" width="100%" alt="" />
-        </div> */}
-        {/* <div className="art-position">
-          <img src="assets/Roadmap/cloud.gif" width="100%" alt="" />
-        </div> */}
         <div className="title-collab">
-          <img src="assets/Collab/title-collab.gif" alt="" style={{height: '45vh'}} />
+          <img
+            className="collect-title"
+            src="assets/Collab/title-collab.gif"
+            alt=""
+          />
         </div>
+        <section id="micro-slider">
+          <div className="micro-slider">
+            <div className="slider-item">
+              <img src="assets/Collab/COLLECTION 1.png" width="100%" alt="" />
+            </div>
+            <div className="slider-item">
+              <img src="assets/Collab/COLLECTION 2.png" width="100%" alt="" />
+            </div>
+            <div className="slider-item">
+              <img src="assets/Collab/COLLECTION 3.png" width="100%" alt="" />
+            </div>
+            <div className="slider-item">
+              <img src="assets/Collab/COLLECTION 4.png" width="100%" alt="" />
+            </div>
+            <div className="slider-item">
+              <img src="assets/Collab/COLLECTION 5.png" width="100%" alt="" />
+            </div>
+            <div className="slider-item">
+              <img src="assets/Collab/COLLECTION 6.png" width="100%" alt="" />
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

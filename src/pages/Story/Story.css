@@ -1,27 +1,70 @@
-.section-story{
-    position: relative;
-    background: url(../../assets/bg/story.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
+.section-story {
+  position: relative;
+  background: url(../../assets/bg/story.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.object-1{
+.object-1 {
+  position: absolute;
+  left: 22%;
+  top: 22%;
+  transform: translate(-50%, -50%);
+}
+
+.story-title {
+  height: 35vh;
+}
+
+.object-2-story {
+  width: 100%;
+  height: 100%;
+}
+
+.desc-position {
+  position: absolute;
+  width: 80%;
+  top: 60%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.desc-content {
+  font-size: 2.5vh;
+  color: #5c3749;
+}
+
+@media only screen and (max-width: 992px) {
+  .desc-content {
+    font-size: calc(1vh + 1.8vw);
+    color: #5c3749;
+  }
+  .object-2-story {
+    display: none;
+  }
+  .object-1 {
     position: absolute;
-    left: 22%;
+    left: 50%;
     top: 22%;
     transform: translate(-50%, -50%);
-}
-
-.desc-position{
+  }
+  .story-title {
+    height: 40vw;
+  }
+  .desc-position {
+    text-align: center;
     position: absolute;
-    width: 80%;
-    top: 60%;
-    left: 45%;
+    width: 90%;
+    top: 57%;
+    left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.desc-content{
-    font-size: 2.5vh;
-    color: #5c3749;
+  }
+  .section-story {
+    position: relative;
+    background: url(../../assets/bg/story-mobile.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 115vh;
+  }
 }

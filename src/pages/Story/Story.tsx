@@ -7,16 +7,15 @@ function Story() {
     <>
       <div className="section-story" id="story">
         <img
+        className="object-2-story"
           src="assets/Story/object-story.gif"
-          width="100%"
-          height="100%"
           alt=""
         />
         <div className="object-1">
           <img
+          className="story-title"
             src="assets/Story/title-story.gif"
             alt=""
-            style={{ height: "35vh" }}
           />
         </div>
         <div className="desc-position">
