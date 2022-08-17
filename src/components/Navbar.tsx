@@ -51,7 +51,7 @@ function Navbar() {
                 style={{ height: "5vh" }}
               />
             </a>
-            <a className="navbar-brand" href="#page-top">
+            <a className="navbar-brand" target="_blank" href="https://twitter.com/_Pawws?s=20&t=rLg0aRnT7ob5jr88wFMZRA">
               <img
                 src="assets/Landing/icon-twt.png"
                 alt=""

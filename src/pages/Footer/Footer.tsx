@@ -26,7 +26,7 @@ function Footer() {
               {/* <a className="p-2" href="">
                 <img src="assets/Footer/icon-ig.png" width="8%" alt="" />
               </a> */}
-              <a className="p-2" href="">
+              <a className="p-2" target="_blank" href="https://twitter.com/_Pawws?s=20&t=rLg0aRnT7ob5jr88wFMZRA">
                 <img src="assets/Footer/icon-twt.png" width="8%" alt="" />
               </a>
               <div className="link-section">
